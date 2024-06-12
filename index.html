@@ -8,20 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body>
     <header class="main-header">
         <nav>
             <div class="brand-name">Shami</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#services">Services</a></li>
-            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -29,7 +33,7 @@
             <div class="intro">
                 <img src="sham.jpg" alt="Ehtisham Ul Haque" class="profile-image">
                 <h1>Ehtisham Ul Haque</h1>
-                <p>Independent Researcher</p>
+                <p>Independent Researcher / Certified Hacker</p>
                 <div class="contact-info">
                     <a href="https://orcid.org/0009-0007-2563-1449" target="_blank">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" alt="ORCID" class="icon">
@@ -48,7 +52,7 @@
                         +92 333 1658291
                     </a>
                 </div>
-                <p>Ehtisham Ul Haque main research interests lie in business application security and its synergy with Internet of Things (IoT), Blockchain, and Artificial intelligence. He has published his work in Q1 journals during his MS Cyber Security program. His MS thesis title is "Scalable EdgeIoT Blockchain Framework using EOSIO" published in an IEEE journal. Currently, he is working as an independent researcher to address the scalability and security issues in blockchain-based IoT applications and gain high-impact training on emerging technologies. He is also keenly interested in ethical hacking and cybersecurity to spread awareness among the masses. </p>
+                <p>Ehtisham Ul Haque main research interests lie in business application security and its synergy with Internet of Things (IoT), Blockchain, and Artificial intelligence. He has published his work in Q1 journals during his MS Cyber Security program. His MS thesis title is "Performance Enhancement in EdgeIoT Blockchain Framework using EOSIO" published in an IEEE journal. Currently, he is working as an independent researcher to address the scalability and security issues in blockchain-based IoT applications and gain high-impact training on emerging technologies. He is also keenly interested in ethical hacking and cybersecurity to spread awareness among the masses. </p>
             </div>
         </section>
         <section id="skills">
@@ -78,7 +82,7 @@
                 <div class="skill-panel">
                     <h2>Certifications</h2>
                     <ul>
-                        <li>Certified Ethical Hacking (CEH)</li>
+                        <li>Certified Ethical Hacker (EC-Council)</li>
                         <li>CISCO Certified Network Associate (CCNA)</li>
                         <li>Certified Blockchain Practitioner</li>
                         <li>McKinsey Forward Program</li>
